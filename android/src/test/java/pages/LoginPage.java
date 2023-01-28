@@ -14,10 +14,10 @@ public class LoginPage extends BasePage {
 	@AndroidFindBy( accessibility = "Sign in or create an account" )
 	private RemoteWebElement welcomeToBookingLabel;
 	@AndroidFindBy( accessibility = "NEXT" )
-	private RemoteWebElement nextButton;
+	private RemoteWebElement closeButton;
 
 	public void clickCloseButton( ) {
-		nextButton.click( );
+		closeButton.click( );
 		logger.info( "Click on the 'CLOSE' button" );
 	}
 
