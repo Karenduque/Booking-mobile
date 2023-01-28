@@ -18,7 +18,7 @@ public class LoginPage extends BasePage {
 
 	public void clickCloseButton( ) {
 		nextButton.click( );
-		logger.info( "Click on the 'NEXT' button" );
+		logger.info( "Click on the 'CLOSE' button" );
 	}
 
 	public void validateWelcomeToBookingLabel( ) {
