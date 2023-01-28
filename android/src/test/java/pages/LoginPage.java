@@ -1,6 +1,5 @@
 package pages;
 
-import extensions.UiAutomator2Extension;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,7 +16,7 @@ public class LoginPage extends BasePage {
 	@AndroidFindBy( accessibility = "NEXT" )
 	private RemoteWebElement nextButton;
 
-	public void clickNextButton ( ) {
+	public void clickCloseButton( ) {
 		nextButton.click( );
 		logger.info( "Click on the 'NEXT' button" );
 	}

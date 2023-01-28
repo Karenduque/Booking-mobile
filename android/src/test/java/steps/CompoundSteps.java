@@ -11,7 +11,7 @@ public class CompoundSteps extends BaseSteps {
     @Given("I am an user searching with the characteristics {string}, {string}, {string}, {string}, {string}, {string}")
     public void iAmAnUserSearchingWithTheCharacteristics(String destinationName, String initialDate, String finalDate, String rooms, String adults, String children) {
         instanceOf( LoginPage.class ).validateWelcomeToBookingLabel( );
-        instanceOf( LoginPage.class ).clickNextButton( );
+        instanceOf( LoginPage.class ).clickCloseButton( );
 
     }
 
