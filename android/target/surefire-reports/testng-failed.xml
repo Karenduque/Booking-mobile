@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" parallel="tests" name="Failed suite [Product Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="tests" name="Product Acceptance Tests Android(failed)" verbose="0">
+    <classes>
+      <class name="AndroidRunnerTest">
+        <methods>
+          <include name="tearDownAppium"/>
+          <include name="setUpClass"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="setUpAppium"/>
+        </methods>
+      </class> <!-- AndroidRunnerTest -->
+    </classes>
+  </test> <!-- Product Acceptance Tests Android(failed) -->
+</suite> <!-- Failed suite [Product Test Suite] -->

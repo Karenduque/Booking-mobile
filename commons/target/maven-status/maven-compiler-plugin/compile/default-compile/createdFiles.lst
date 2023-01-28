@@ -1,0 +1,8 @@
+extensions/UiAutomator2Extension.class
+extensions/UiAutomator2Extension$1.class
+drivers/AndroidAppDriver.class
+extensions/ExpectedConditionsExtension.class
+extensions/UiAutomator2Extension$DIRECTION.class
+appium/AppiumServer.class
+drivers/IOSAppDriver.class
+readers/AppiumJsonReader.class

@@ -1,0 +1,30 @@
+{
+  "configs": {
+    "karen": {
+      "android": "/Users/karenduque/Library/Android/sdk",
+      "java": "/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home",
+      "node": "/usr/local/bin/node",
+      "executable": "/usr/local/bin/appium",
+      "log": "target/appium.log"
+    }
+   
+  },
+  "servers": [
+    {
+      "os": "android",
+      "ip": "0.0.0.0",
+      "port": 4725,
+      "device": "androidKaren",
+      "app": "apk"
+    }
+  ],
+  "apps": {
+    "apk": "booking-com-32-9.apk"
+  },
+  "capabilities": {
+    "androidKaren": {
+      "appium:autoGrantPermissions": true,
+      "appium:deviceName": "3447700577003UY"
+    }
+  }
+}

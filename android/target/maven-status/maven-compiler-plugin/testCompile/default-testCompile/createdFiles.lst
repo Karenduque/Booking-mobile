@@ -1,0 +1,12 @@
+steps/BaseSteps.class
+pages/Page.class
+pages/BasePage.class
+steps/CompoundSteps.class
+steps/ClickSteps.class
+AndroidRunnerTest.class
+steps/SwipeSteps.class
+FailedScenariosRunnerTest.class
+hooks/AndroidHooks.class
+steps/ValidationSteps.class
+pages/LoginPage.class
+sections/TabSection.class
