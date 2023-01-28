@@ -24,7 +24,7 @@
   "capabilities": {
     "androidKaren": {
       "appium:autoGrantPermissions": true,
-      "appium:deviceName": "RF8M40X3BTY"
+      "appium:deviceName": "3447700577003UY"
     }
   }
 }
