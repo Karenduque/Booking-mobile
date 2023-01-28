@@ -13,7 +13,7 @@ public class LoginPage extends BasePage {
 
 	@AndroidFindBy( accessibility = "Sign in or create an account" )
 	private RemoteWebElement welcomeToBookingLabel;
-	@AndroidFindBy( accessibility = "NEXT" )
+	@AndroidFindBy( xpath = "//android.widget.ImageButton[@content-desc=\"Navigate up\"]" )
 	private RemoteWebElement closeButton;
 
 	public void clickCloseButton( ) {
