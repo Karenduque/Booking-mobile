@@ -1,6 +1,14 @@
 # AUTOMATIZACIÓN DE PRUEBAS FUNCIONALES BOOKING.COM!
 Repositorio creado para el desafio Booking de la empresa Yape version 2023 por **KarenDuque**
 
+## Management tools
+
+**Install:
+- appium-doctor
+- appium inspector
+- Vysor
+- node.js and appium server
+
 ## Project technologies
 
 The project is developed with the **Java** programming language and the **Appium** mobile automation framework.
