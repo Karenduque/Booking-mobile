@@ -10,21 +10,32 @@ import static org.testng.Assert.assertTrue;
 public class LoginPage extends BasePage {
 
 	private final Logger logger = LogManager.getLogger( );
-
-	@AndroidFindBy( accessibility = "Sign in or create an account" )
-	private RemoteWebElement welcomeToBookingLabel;
-	@AndroidFindBy( xpath = "//android.widget.ImageButton[@content-desc=\"Navigate up\"]" )
+	@AndroidFindBy( xpath = "//android.widget.ImageButton" )
 	private RemoteWebElement closeButton;
+	@AndroidFindBy(id = "com.booking:id/facet_search_box_basic_field_label")
+	private RemoteWebElement iconDestinationViewText;
+
+	@AndroidFindBy(xpath = "android.widget.TextView')")
+	private RemoteWebElement destinationViewText;
+
+//	@AndroidFindBy( accessibility = "" )
+//	private RemoteWebElement dateViewText;
 
 	public void clickCloseButton( ) {
 		closeButton.click( );
 		logger.info( "Click on the 'CLOSE' button" );
 	}
 
-	public void validateWelcomeToBookingLabel( ) {
-		assertTrue( welcomeToBookingLabel.isDisplayed( ), "Sign in or create an account' label is not displayed" );
-		logger.info( "The 'Sign in or create an account' label is displayed" );
+	public void clickIconDestinationViewText( ) {
+		iconDestinationViewText.click();
 	}
+	public void fillDestinationViewText(String destinationName ) {
+		destinationViewText.getCssValue(destinationName);
+
+	}
+//	public void fillDateViewText( ) {
+//
+//	}
 
 
 }

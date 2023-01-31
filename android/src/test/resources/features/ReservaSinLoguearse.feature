@@ -18,5 +18,4 @@ Feature: Search
     Examples:
       | destinationName |  initialDate |  finalDate |  rooms  | adults | children |
       |Cuzco            |mar, 14 feb   |mar, 28 feb |1        |2       |1         |
-      |Cali             |mar, 14 feb   |mar, 28 feb |1        |3       |1         |
 

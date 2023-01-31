@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-31T05:54:03 COT" name="Product Test Suite" finished-at="2023-01-31T05:54:36 COT" duration-ms="33043">
+  <suite started-at="2023-01-31T09:33:53 COT" name="Product Test Suite" finished-at="2023-01-31T09:34:21 COT" duration-ms="28367">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AndroidRunnerTest@72035809]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-01-31T05:54:03 COT" name="Product Acceptance Tests Android" finished-at="2023-01-31T05:54:36 COT" duration-ms="33043">
+    <test started-at="2023-01-31T09:33:53 COT" name="Product Acceptance Tests Android" finished-at="2023-01-31T09:34:21 COT" duration-ms="28367">
       <class name="AndroidRunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T05:54:03 COT" name="setUpClass" finished-at="2023-01-31T05:54:03 COT" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:33:53 COT" name="setUpClass" finished-at="2023-01-31T09:33:53 COT" duration-ms="312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,11 +21,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpAppium()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T05:54:03 COT" name="setUpAppium" finished-at="2023-01-31T05:54:05 COT" duration-ms="1712" status="PASS">
+        <test-method is-config="true" signature="setUpAppium()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:33:53 COT" name="setUpAppium" finished-at="2023-01-31T09:33:54 COT" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAppium -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T05:54:05 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-31T05:54:23 COT" duration-ms="18002" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:33:54 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-31T09:34:21 COT" duration-ms="26992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,27 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T05:54:23 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-31T05:54:36 COT" duration-ms="12847" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["01. Book a hotel in  "Cali" from the date "mar, 14 feb" until  "mar, 28 feb" with rooms  and guests  "1" , "3" , "1""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Search"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T05:54:36 COT" name="tearDownAppium" finished-at="2023-01-31T05:54:36 COT" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:34:21 COT" name="tearDownAppium" finished-at="2023-01-31T09:34:21 COT" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAppium -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T05:54:36 COT" name="tearDownClass" finished-at="2023-01-31T05:54:36 COT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:34:21 COT" name="tearDownClass" finished-at="2023-01-31T09:34:21 COT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
