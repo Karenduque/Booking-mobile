@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Product_Test_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Product Test Suite</span>
+              <span class="suite-name border-failed">Product Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Product_Test_Suite" class="hide-methods passed suite-Product_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Product_Test_Suite -->
-                      <a href="#" panel-name="suite-Product_Test_Suite" class="show-methods passed suite-Product_Test_Suite"> (show)</a> <!-- show-methods passed suite-Product_Test_Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Product_Test_Suite" class="hide-methods failed suite-Product_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Product_Test_Suite -->
+                      <a href="#" panel-name="suite-Product_Test_Suite" class="show-methods failed suite-Product_Test_Suite"> (show)</a> <!-- show-methods failed suite-Product_Test_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Product_Test_Suite">
+                    <div class="method-list-content failed suite-Product_Test_Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Product_Test_Suite" title="AndroidRunnerTest" class="method navigator-link" hash-for-method="runScenario(&quot;01. Book a hotel in  &quot;Cuzco&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guest...)">runScenario("01. Book a hotel in  "Cuzco" from the date "mar, 14 feb" until  "mar, 28 feb" with rooms  and guest...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Product_Test_Suite -->
+                    </div> <!-- method-list-content failed suite-Product_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,9 +118,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Product_Test_Suite" class="panel Product_Test_Suite">
-          <div class="suite-Product_Test_Suite-class-passed">
+          <div class="suite-Product_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">AndroidRunnerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -130,12 +130,73 @@
                   </a> <!-- runScenario("01. Book a hotel in  "Cuzco" from the date "mar, 14 feb" until  "mar, 28 feb" with rooms  and guest...) -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("01. Book a hotel in  "Cuzco" from the date "mar, 14 feb" until  "mar, 28 feb" with rooms  and guests  "1" , "2" , "1"","Search")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: /hierarchy/android.widget.FrameLayout&apos;)})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.click(&lt;generated&gt;)
+	at pages.LoginPage.clickDestinationViewTextFrame(LoginPage.java:39)
+	at steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(CompoundSteps.java:15)
+	at ✽.I am an user searching with the characteristics &quot;Cuzco&quot;, &quot;mar, 14 feb&quot;, &quot;mar, 28 feb&quot;, &quot;1&quot;, &quot;2&quot;, &quot;1&quot;(file:///Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/src/test/resources/features/ReservaSinLoguearse.feature:6)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@403492c8 (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.click(&lt;generated&gt;)
+	at pages.LoginPage.clickDestinationViewTextFrame(LoginPage.java:39)
+	at steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(CompoundSteps.java:15)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: /hierarchy/android.widget.FrameLayout&apos;)})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6&apos;, java.version: &apos;11.0.16.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:165)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 50 more
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Product_Test_Suite-class-passed -->
+          </div> <!-- suite-Product_Test_Suite-class-failed -->
         </div> <!-- panel Product_Test_Suite -->
         <div panel-name="test-xml-Product_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -200,12 +261,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'AndroidRunnerTest')
-data.setCell(0, 3, 26992);
+data.setCell(0, 3, 58507);
 window.suiteTableData['Product_Test_Suite']= { tableData: data, tableDiv: 'times-div-Product_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Product_Test_Suite">
               </div> <!-- times-div-Product_Test_Suite -->
             </div> <!-- times-div -->
@@ -233,24 +294,26 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">AndroidRunnerTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@5c86dbc5)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@10289886)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setUpAppium</span>
-                <span class="method-start">313 ms</span>
+                <span class="method-start">329 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("01. Book a hotel in  "Cuzco" from the date "mar, 14 feb" until  "mar, 28 feb" with rooms  and guest...)</span>
-                <span class="method-start">1283 ms</span>
+                <span class="method-start">2066 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownAppium</span>
-                <span class="method-start">28278 ms</span>
+                <span class="method-start">60578 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">28344 ms</span>
+                <span class="method-start">60649 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

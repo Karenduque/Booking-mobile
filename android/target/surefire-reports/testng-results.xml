@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-31T09:33:53 COT" name="Product Test Suite" finished-at="2023-01-31T09:34:21 COT" duration-ms="28367">
+  <suite started-at="2023-01-31T09:57:48 COT" name="Product Test Suite" finished-at="2023-01-31T09:58:49 COT" duration-ms="60675">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AndroidRunnerTest@72035809]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AndroidRunnerTest@5afa3c9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-01-31T09:33:53 COT" name="Product Acceptance Tests Android" finished-at="2023-01-31T09:34:21 COT" duration-ms="28367">
+    <test started-at="2023-01-31T09:57:48 COT" name="Product Acceptance Tests Android" finished-at="2023-01-31T09:58:49 COT" duration-ms="60675">
       <class name="AndroidRunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:33:53 COT" name="setUpClass" finished-at="2023-01-31T09:33:53 COT" duration-ms="312" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:AndroidRunnerTest@5afa3c9]" started-at="2023-01-31T09:57:48 COT" name="setUpClass" finished-at="2023-01-31T09:57:49 COT" duration-ms="328" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5c86dbc5]]>
+                <![CDATA[org.testng.TestRunner@10289886]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpAppium()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:33:53 COT" name="setUpAppium" finished-at="2023-01-31T09:33:54 COT" duration-ms="963" status="PASS">
+        <test-method is-config="true" signature="setUpAppium()[pri:0, instance:AndroidRunnerTest@5afa3c9]" started-at="2023-01-31T09:57:49 COT" name="setUpAppium" finished-at="2023-01-31T09:57:50 COT" duration-ms="1728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAppium -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:33:54 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-31T09:34:21 COT" duration-ms="26992" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AndroidRunnerTest@5afa3c9]" started-at="2023-01-31T09:57:50 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-31T09:58:49 COT" duration-ms="58507" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -38,14 +38,102 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.xpath: /hierarchy/android.widget.FrameLayout')})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: /hierarchy/android.widget.FrameLayout')})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.click(<generated>)
+at pages.LoginPage.clickDestinationViewTextFrame(LoginPage.java:39)
+at steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(CompoundSteps.java:15)
+at ✽.I am an user searching with the characteristics "Cuzco", "mar, 14 feb", "mar, 28 feb", "1", "2", "1"(file:///Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/src/test/resources/features/ReservaSinLoguearse.feature:6)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@403492c8 (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.click(<generated>)
+at pages.LoginPage.clickDestinationViewTextFrame(LoginPage.java:39)
+at steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(CompoundSteps.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: /hierarchy/android.widget.FrameLayout')})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: driver.version: RemoteWebDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:165)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 50 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:34:21 COT" name="tearDownAppium" finished-at="2023-01-31T09:34:21 COT" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:AndroidRunnerTest@5afa3c9]" started-at="2023-01-31T09:58:49 COT" name="tearDownAppium" finished-at="2023-01-31T09:58:49 COT" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAppium -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:AndroidRunnerTest@72035809]" started-at="2023-01-31T09:34:21 COT" name="tearDownClass" finished-at="2023-01-31T09:34:21 COT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:AndroidRunnerTest@5afa3c9]" started-at="2023-01-31T09:58:49 COT" name="tearDownClass" finished-at="2023-01-31T09:58:49 COT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

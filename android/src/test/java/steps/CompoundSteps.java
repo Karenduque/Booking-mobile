@@ -12,7 +12,8 @@ public class CompoundSteps extends BaseSteps {
     public void iAmAnUserSearchingWithTheCharacteristics(String destinationName, String initialDate, String finalDate, String rooms, String adults, String children) {
         instanceOf( LoginPage.class ).clickCloseButton( );
         instanceOf( LoginPage.class ).clickIconDestinationViewText( );
-       // instanceOf( LoginPage.class ).fillDestinationViewText( destinationName);
+        instanceOf( LoginPage.class ).clickDestinationViewTextFrame( );
+        instanceOf( LoginPage.class ).fillDestinationViewText(destinationName);
 
     }
 

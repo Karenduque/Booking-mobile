@@ -15,8 +15,11 @@ public class LoginPage extends BasePage {
 	@AndroidFindBy(id = "com.booking:id/facet_search_box_basic_field_label")
 	private RemoteWebElement iconDestinationViewText;
 
-	@AndroidFindBy(xpath = "android.widget.TextView')")
+	@AndroidFindBy(id = "com.booking:id/facet_with_bui_free_search_booking_header_toolbar_content')")
 	private RemoteWebElement destinationViewText;
+
+	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout')")
+	private RemoteWebElement destinationViewTextFrame;
 
 //	@AndroidFindBy( accessibility = "" )
 //	private RemoteWebElement dateViewText;
@@ -30,8 +33,10 @@ public class LoginPage extends BasePage {
 		iconDestinationViewText.click();
 	}
 	public void fillDestinationViewText(String destinationName ) {
-		destinationViewText.getCssValue(destinationName);
-
+		destinationViewText.click();
+	}
+	public void clickDestinationViewTextFrame( ) {
+		destinationViewTextFrame.click( );
 	}
 //	public void fillDateViewText( ) {
 //

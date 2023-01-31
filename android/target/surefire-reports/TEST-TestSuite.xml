@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.79" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="61.138" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="/Users/karenduque/Desktop/jdk-11.0.16.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire/surefirebooter-20230131093352643_3.jar /Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire 2023-01-31T09-33-51_827-jvmRun1 surefire-20230131093352643_1tmp surefire_0-20230131093352643_2tmp"/>
+    <property name="sun.java.command" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire/surefirebooter-20230131095748061_3.jar /Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire 2023-01-31T09-57-47_110-jvmRun1 surefire-20230131095748061_1tmp surefire_0-20230131095748061_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/test-classes:/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/classes:/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/commons/target/classes:/Users/karenduque/.m2/repository/io/cucumber/cucumber-java/7.8.1/cucumber-java-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-core/7.8.1/cucumber-core-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-gherkin/7.8.1/cucumber-gherkin-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.1/cucumber-gherkin-messages-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/karenduque/.m2/repository/io/cucumber/datatable/7.8.1/datatable-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-plugin/7.8.1/cucumber-plugin-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/docstring/7.8.1/docstring-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/karenduque/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/karenduque/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-testng/7.8.1/cucumber-testng-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/gherkin/24.1.0/gherkin-24.1.0.jar:/Users/karenduque/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/karenduque/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/karenduque/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/karenduque/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/karenduque/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/karenduque/.m2/repository/io/appium/java-client/8.2.0/java-client-8.2.0.jar:/Users/karenduque/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/karenduque/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/karenduque/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/karenduque/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/karenduque/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/karenduque/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/karenduque/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/karenduque/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/karenduque/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/karenduque/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/karenduque/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-support/4.5.0/selenium-support-4.5.0.jar:/Users/karenduque/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/karenduque/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/karenduque/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/karenduque/.m2/repository/net/bytebuddy/byte-buddy/1.12.14/byte-buddy-1.12.14.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-json/4.5.0/selenium-json-4.5.0.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-api/4.5.0/selenium-api-4.5.0.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.5.0/selenium-remote-driver-4.5.0.jar:/Users/karenduque/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.79.Final/netty-transport-classes-kqueue-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.79.Final/netty-transport-native-kqueue-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-api/1.17.0/opentelemetry-api-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-context/1.17.0/opentelemetry-context-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.17.0/opentelemetry-exporter-logging-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.17.0/opentelemetry-sdk-metrics-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.17.0-alpha/opentelemetry-sdk-logs-1.17.0-alpha.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.17.0/opentelemetry-sdk-common-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.17.0/opentelemetry-sdk-extension-autoconfigure-spi-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.17.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.17.0-alpha.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.17.0/opentelemetry-exporter-common-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.17.0/opentelemetry-sdk-trace-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.17.0/opentelemetry-sdk-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.17.0-alpha/opentelemetry-semconv-1.17.0-alpha.jar:/Users/karenduque/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/karenduque/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/karenduque/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/karenduque/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/karenduque/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/karenduque/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/karenduque/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/karenduque/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-http/4.5.0/selenium-http-4.5.0.jar:/Users/karenduque/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/karenduque/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/Users/karenduque/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/karenduque/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/Users/karenduque/.m2/repository/org/slf4j/slf4j-simple/2.0.3/slf4j-simple-2.0.3.jar:/Users/karenduque/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.19.0/allure-cucumber7-jvm-2.19.0.jar:/Users/karenduque/.m2/repository/io/qameta/allure/allure-java-commons/2.19.0/allure-java-commons-2.19.0.jar:/Users/karenduque/.m2/repository/io/qameta/allure/allure-model/2.19.0/allure-model-2.19.0.jar:/Users/karenduque/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/karenduque/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/karenduque/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/karenduque/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/karenduque/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/karenduque/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/karenduque/.m2/repository/org/json/json/20220924/json-20220924.jar:/Users/karenduque/.m2/repository/net/sourceforge/tess4j/tess4j/5.4.0/tess4j-5.4.0.jar:/Users/karenduque/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/karenduque/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/pdfbox-tools/2.0.26/pdfbox-tools-2.0.26.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/pdfbox-debugger/2.0.26/pdfbox-debugger-2.0.26.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.jar:/Users/karenduque/.m2/repository/net/sourceforge/lept4j/lept4j/1.16.2/lept4j-1.16.2.jar:/Users/karenduque/.m2/repository/org/jboss/jboss-vfs/3.2.17.Final/jboss-vfs-3.2.17.Final.jar:/Users/karenduque/.m2/repository/org/jboss/logging/jboss-logging/3.1.4.GA/jboss-logging-3.1.4.GA.jar:/Users/karenduque/.m2/repository/joda-time/joda-time/2.12.0/joda-time-2.12.0.jar:"/>
     <property name="allure.results.directory" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/reports/results"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire/surefirebooter-20230131093352643_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire/surefirebooter-20230131095748061_3.jar"/>
     <property name="server" value="0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -61,13 +61,175 @@
     <property name="java.class.version" value="55.0"/>
     <property name="config" value="karen"/>
   </properties>
-  <testcase name="runScenario[&quot;01. Book a hotel in  &quot;Cuzco&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;2&quot; , &quot;1&quot;&quot;, &quot;Search&quot;](1)" classname="AndroidRunnerTest" time="26.993">
+  <testcase name="runScenario[&quot;01. Book a hotel in  &quot;Cuzco&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;2&quot; , &quot;1&quot;&quot;, &quot;Search&quot;](1)" classname="AndroidRunnerTest" time="58.511">
+    <failure message="Can&apos;t locate an element by this strategy: By.chained({By.xpath: /hierarchy/android.widget.FrameLayout&apos;)})" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: /hierarchy/android.widget.FrameLayout')})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.click(<generated>)
+	at pages.LoginPage.clickDestinationViewTextFrame(LoginPage.java:39)
+	at steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(CompoundSteps.java:15)
+	at ✽.I am an user searching with the characteristics "Cuzco", "mar, 14 feb", "mar, 28 feb", "1", "2", "1"(file:///Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/src/test/resources/features/ReservaSinLoguearse.feature:6)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@403492c8 (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.click(<generated>)
+	at pages.LoginPage.clickDestinationViewTextFrame(LoginPage.java:39)
+	at steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(CompoundSteps.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: /hierarchy/android.widget.FrameLayout')})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:165)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 50 more
+]]></failure>
     <system-out><![CDATA[
 @Android @MediaCenter
 Scenario Outline: 01. Book a hotel in  "Cuzco" from the date "mar, 14 feb" until  "mar, 28 feb" with rooms  and guests  "1" , "2" , "1" &amp#27;[90m# src/test/resources/features/ReservaSinLoguearse.feature:20&amp#27;[0m
-09:34:18.060 INFO  LoginPage.clickCloseButton :: Click on the 'CLOSE' button
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am an user searching with the characteristics &amp#27;[0m&amp#27;[32m&amp#27;[1m"Cuzco"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"mar, 14 feb"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"mar, 28 feb"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                            &amp#27;[90m# steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
-09:34:21.546 INFO  AndroidAppDriver.stopDriver :: AndroidDriver stopped
+09:58:14.333 INFO  LoginPage.clickCloseButton :: Click on the 'CLOSE' button
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI am an user searching with the characteristics &amp#27;[0m&amp#27;[31m&amp#27;[1m"Cuzco"&amp#27;[0m&amp#27;[31m, &amp#27;[0m&amp#27;[31m&amp#27;[1m"mar, 14 feb"&amp#27;[0m&amp#27;[31m, &amp#27;[0m&amp#27;[31m&amp#27;[1m"mar, 28 feb"&amp#27;[0m&amp#27;[31m, &amp#27;[0m&amp#27;[31m&amp#27;[1m"1"&amp#27;[0m&amp#27;[31m, &amp#27;[0m&amp#27;[31m&amp#27;[1m"2"&amp#27;[0m&amp#27;[31m, &amp#27;[0m&amp#27;[31m&amp#27;[1m"1"&amp#27;[0m                            &amp#27;[90m# steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: /hierarchy/android.widget.FrameLayout')})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.click(<generated>)
+	at pages.LoginPage.clickDestinationViewTextFrame(LoginPage.java:39)
+	at steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(CompoundSteps.java:15)
+	at ✽.I am an user searching with the characteristics "Cuzco", "mar, 14 feb", "mar, 28 feb", "1", "2", "1"(file:///Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/src/test/resources/features/ReservaSinLoguearse.feature:6)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@403492c8 (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.click(<generated>)
+	at pages.LoginPage.clickDestinationViewTextFrame(LoginPage.java:39)
+	at steps.CompoundSteps.iAmAnUserSearchingWithTheCharacteristics(CompoundSteps.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: /hierarchy/android.widget.FrameLayout')})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '11.0.16.1'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:165)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 50 more
+&amp#27;[0m
+09:58:49.264 INFO  AndroidAppDriver.stopDriver :: AndroidDriver stopped
 ]]></system-out>
   </testcase>
 </testsuite>
