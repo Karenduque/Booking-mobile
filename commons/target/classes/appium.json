@@ -3,8 +3,8 @@
     "karen": {
       "android": "/Users/karenduque/Library/Android/sdk",
       "java": "/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home",
-      "node": "/usr/local/bin/node",
-      "executable": "/usr/local/bin/appium",
+      "node": "/Users/karenduque/.nvm/versions/node/v14.17.0/bin/node",
+      "executable": "/Users/karenduque/.nvm/versions/node/v14.17.0/bin/appium",
       "log": "target/appium.log"
     }
    

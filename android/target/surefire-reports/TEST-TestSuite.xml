@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.813" tests="4" errors="0" skipped="3" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.996" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="/Users/karenduque/Desktop/jdk-11.0.16.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire/surefirebooter-20230128143210853_3.jar /Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire 2023-01-28T14-32-09_970-jvmRun1 surefire-20230128143210853_1tmp surefire_0-20230128143210853_2tmp"/>
+    <property name="sun.java.command" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire/surefirebooter-20230131053915695_3.jar /Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire 2023-01-31T05-39-14_787-jvmRun1 surefire-20230131053915695_1tmp surefire_0-20230131053915695_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/test-classes:/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/classes:/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/commons/target/classes:/Users/karenduque/.m2/repository/io/cucumber/cucumber-java/7.8.1/cucumber-java-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-core/7.8.1/cucumber-core-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-gherkin/7.8.1/cucumber-gherkin-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.1/cucumber-gherkin-messages-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/karenduque/.m2/repository/io/cucumber/datatable/7.8.1/datatable-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-plugin/7.8.1/cucumber-plugin-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/docstring/7.8.1/docstring-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/karenduque/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/karenduque/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/karenduque/.m2/repository/io/cucumber/cucumber-testng/7.8.1/cucumber-testng-7.8.1.jar:/Users/karenduque/.m2/repository/io/cucumber/gherkin/24.1.0/gherkin-24.1.0.jar:/Users/karenduque/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/karenduque/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/karenduque/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/karenduque/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/karenduque/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/karenduque/.m2/repository/io/appium/java-client/8.2.0/java-client-8.2.0.jar:/Users/karenduque/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/karenduque/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/karenduque/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/karenduque/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/karenduque/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/karenduque/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/karenduque/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/karenduque/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/karenduque/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/karenduque/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/karenduque/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-support/4.5.0/selenium-support-4.5.0.jar:/Users/karenduque/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/karenduque/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/karenduque/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/karenduque/.m2/repository/net/bytebuddy/byte-buddy/1.12.14/byte-buddy-1.12.14.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-json/4.5.0/selenium-json-4.5.0.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-api/4.5.0/selenium-api-4.5.0.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.5.0/selenium-remote-driver-4.5.0.jar:/Users/karenduque/.m2/repository/io/netty/netty-buffer/4.1.79.Final/netty-buffer-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-codec-http/4.1.79.Final/netty-codec-http-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-handler/4.1.79.Final/netty-handler-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.79.Final/netty-transport-classes-kqueue-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-epoll/4.1.79.Final/netty-transport-native-epoll-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.79.Final/netty-transport-native-kqueue-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport/4.1.79.Final/netty-transport-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-api/1.17.0/opentelemetry-api-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-context/1.17.0/opentelemetry-context-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.17.0/opentelemetry-exporter-logging-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.17.0/opentelemetry-sdk-metrics-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.17.0-alpha/opentelemetry-sdk-logs-1.17.0-alpha.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.17.0/opentelemetry-sdk-common-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.17.0/opentelemetry-sdk-extension-autoconfigure-spi-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.17.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.17.0-alpha.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.17.0/opentelemetry-exporter-common-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.17.0/opentelemetry-sdk-trace-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.17.0/opentelemetry-sdk-1.17.0.jar:/Users/karenduque/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.17.0-alpha/opentelemetry-semconv-1.17.0-alpha.jar:/Users/karenduque/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/karenduque/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/karenduque/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/karenduque/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/karenduque/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/karenduque/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/karenduque/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/karenduque/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/karenduque/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/karenduque/.m2/repository/org/seleniumhq/selenium/selenium-http/4.5.0/selenium-http-4.5.0.jar:/Users/karenduque/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/karenduque/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/Users/karenduque/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/karenduque/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/Users/karenduque/.m2/repository/org/slf4j/slf4j-simple/2.0.3/slf4j-simple-2.0.3.jar:/Users/karenduque/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.19.0/allure-cucumber7-jvm-2.19.0.jar:/Users/karenduque/.m2/repository/io/qameta/allure/allure-java-commons/2.19.0/allure-java-commons-2.19.0.jar:/Users/karenduque/.m2/repository/io/qameta/allure/allure-model/2.19.0/allure-model-2.19.0.jar:/Users/karenduque/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/karenduque/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/karenduque/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/karenduque/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/karenduque/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/karenduque/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/karenduque/.m2/repository/org/json/json/20220924/json-20220924.jar:/Users/karenduque/.m2/repository/net/sourceforge/tess4j/tess4j/5.4.0/tess4j-5.4.0.jar:/Users/karenduque/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/karenduque/.m2/repository/com/github/jai-imageio/jai-imageio-core/1.4.0/jai-imageio-core-1.4.0.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/pdfbox-tools/2.0.26/pdfbox-tools-2.0.26.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/pdfbox-debugger/2.0.26/pdfbox-debugger-2.0.26.jar:/Users/karenduque/.m2/repository/org/apache/pdfbox/jbig2-imageio/3.0.4/jbig2-imageio-3.0.4.jar:/Users/karenduque/.m2/repository/net/sourceforge/lept4j/lept4j/1.16.2/lept4j-1.16.2.jar:/Users/karenduque/.m2/repository/org/jboss/jboss-vfs/3.2.17.Final/jboss-vfs-3.2.17.Final.jar:/Users/karenduque/.m2/repository/org/jboss/logging/jboss-logging/3.1.4.GA/jboss-logging-3.1.4.GA.jar:/Users/karenduque/.m2/repository/joda-time/joda-time/2.12.0/joda-time-2.12.0.jar:"/>
     <property name="allure.results.directory" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/reports/results"/>
@@ -33,8 +33,8 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire/surefirebooter-20230128143210853_3.jar"/>
-    <property name="server" value="-Dserver=0"/>
+    <property name="surefire.real.class.path" value="/Users/karenduque/Desktop/karen/KarenGit/Booking-mobile/android/target/surefire/surefirebooter-20230131053915695_3.jar"/>
+    <property name="server" value="0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
     <property name="user.name" value="karenduque"/>
@@ -59,24 +59,79 @@
     <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
-    <property name="config" value="Karen"/>
+    <property name="config" value="karen"/>
   </properties>
-  <testcase name="setUpAppium" classname="AndroidRunnerTest" time="0.669">
-    <failure message="For input string: &quot;-Dserver=0&quot;" type="java.lang.NumberFormatException"><![CDATA[java.lang.NumberFormatException: For input string: "-Dserver=0"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at AndroidRunnerTest.setUpAppium(AndroidRunnerTest.java:26)
+  <testcase name="runScenario[&quot;01. Book a hotel in  &quot;Cuzco&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;2&quot; , &quot;1&quot;&quot;, &quot;Search&quot;](1)" classname="AndroidRunnerTest" time="13.897">
+    <failure message="The step &apos;I am an user searching with the characteristics &quot;Cuzco&quot;, &quot;mar, 14 feb&quot;, &quot;mar, 28 feb&quot;, &quot;1&quot;, &quot;2&quot;, &quot;1&quot; When I click on Search&apos; and 8 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am an user searching with the characteristics {string}, {string}, {string}, {string}, {string}, {string} When I click on Search&quot;)&#10;public void i_am_an_user_searching_with_the_characteristics_when_i_click_on_search(String string, String string2, String string3, String string4, String string5, String string6) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the results are showed&quot;)&#10;public void the_results_are_showed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I can to do the book&quot;)&#10;public void i_can_to_do_the_book() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I choose the options: hotel and room&quot;)&#10;public void i_choose_the_options_hotel_and_room() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I can see the fill in your information page&quot;)&#10;public void i_can_see_the_fill_in_your_information_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I fill my booking details&quot;)&#10;public void i_fill_my_booking_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I verify the booking details&quot;)&#10;public void i_verify_the_booking_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;select last step&quot;)&#10;public void select_last_step() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the book is successfully&quot;)&#10;public void the_book_is_successfully() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I am an user searching with the characteristics "Cuzco", "mar, 14 feb", "mar, 28 feb", "1", "2", "1" When I click on Search' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am an user searching with the characteristics {string}, {string}, {string}, {string}, {string}, {string} When I click on Search")
+public void i_am_an_user_searching_with_the_characteristics_when_i_click_on_search(String string, String string2, String string3, String string4, String string5, String string6) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the results are showed")
+public void the_results_are_showed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I can to do the book")
+public void i_can_to_do_the_book() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I choose the options: hotel and room")
+public void i_choose_the_options_hotel_and_room() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I can see the fill in your information page")
+public void i_can_see_the_fill_in_your_information_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I fill my booking details")
+public void i_fill_my_booking_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the booking details")
+public void i_verify_the_booking_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("select last step")
+public void select_last_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the book is successfully")
+public void the_book_is_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at org.testng.TestRunner.privateRun(TestRunner.java:806)
 	at org.testng.TestRunner.run(TestRunner.java:601)
@@ -88,14 +143,117 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 ]]></failure>
+    <system-out><![CDATA[
+@Android @MediaCenter
+Scenario Outline: 01. Book a hotel in  "Cuzco" from the date "mar, 14 feb" until  "mar, 28 feb" with rooms  and guests  "1" , "2" , "1" &amp#27;[90m# src/test/resources/features/ReservaSinLoguearse.feature:19&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am an user searching with the characteristics "Cuzco", "mar, 14 feb", "mar, 28 feb", "1", "2", "1" When I click on Search&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe results are showed&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI can to do the book&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI choose the options: hotel and room&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI can see the fill in your information page&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI fill my booking details&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI verify the booking details&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mselect last step&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe book is successfully&amp#27;[0m
+05:39:32.762 INFO  AndroidAppDriver.stopDriver :: AndroidDriver stopped
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;01. Open the Stays &quot;Cuzco&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;2&quot; , &quot;1&quot;&quot;, &quot;Search&quot;](1)" classname="AndroidRunnerTest" time="0">
-    <skipped message="For input string: &quot;-Dserver=0&quot;"/>
-  </testcase>
-  <testcase name="runScenario[&quot;01. Open the Stays &quot;Cali&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;3&quot; , &quot;1&quot;&quot;, &quot;Search&quot;](2)" classname="AndroidRunnerTest" time="0">
-    <skipped message="For input string: &quot;-Dserver=0&quot;"/>
-  </testcase>
-  <testcase name="tearDownAppium" classname="AndroidRunnerTest" time="0">
-    <skipped/>
+  <testcase name="runScenario[&quot;01. Book a hotel in  &quot;Cali&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;3&quot; , &quot;1&quot;&quot;, &quot;Search&quot;](2)" classname="AndroidRunnerTest" time="10.439">
+    <failure message="The step &apos;I am an user searching with the characteristics &quot;Cali&quot;, &quot;mar, 14 feb&quot;, &quot;mar, 28 feb&quot;, &quot;1&quot;, &quot;3&quot;, &quot;1&quot; When I click on Search&apos; and 8 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;I am an user searching with the characteristics {string}, {string}, {string}, {string}, {string}, {string} When I click on Search&quot;)&#10;public void i_am_an_user_searching_with_the_characteristics_when_i_click_on_search(String string, String string2, String string3, String string4, String string5, String string6) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the results are showed&quot;)&#10;public void the_results_are_showed() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I can to do the book&quot;)&#10;public void i_can_to_do_the_book() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I choose the options: hotel and room&quot;)&#10;public void i_choose_the_options_hotel_and_room() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I can see the fill in your information page&quot;)&#10;public void i_can_see_the_fill_in_your_information_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I fill my booking details&quot;)&#10;public void i_fill_my_booking_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;I verify the booking details&quot;)&#10;public void i_verify_the_booking_details() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;select last step&quot;)&#10;public void select_last_step() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the book is successfully&quot;)&#10;public void the_book_is_successfully() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I am an user searching with the characteristics "Cali", "mar, 14 feb", "mar, 28 feb", "1", "3", "1" When I click on Search' and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am an user searching with the characteristics {string}, {string}, {string}, {string}, {string}, {string} When I click on Search")
+public void i_am_an_user_searching_with_the_characteristics_when_i_click_on_search(String string, String string2, String string3, String string4, String string5, String string6) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the results are showed")
+public void the_results_are_showed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I can to do the book")
+public void i_can_to_do_the_book() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I choose the options: hotel and room")
+public void i_choose_the_options_hotel_and_room() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I can see the fill in your information page")
+public void i_can_see_the_fill_in_your_information_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I fill my booking details")
+public void i_fill_my_booking_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the booking details")
+public void i_verify_the_booking_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("select last step")
+public void select_last_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the book is successfully")
+public void the_book_is_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[
+@Android @MediaCenter
+Scenario Outline: 01. Book a hotel in  "Cali" from the date "mar, 14 feb" until  "mar, 28 feb" with rooms  and guests  "1" , "3" , "1" &amp#27;[90m# src/test/resources/features/ReservaSinLoguearse.feature:20&amp#27;[0m
+&amp#27;[35m[Logcat]&amp#27;[39m Logcat terminated with code 1, signal null
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mI am an user searching with the characteristics "Cali", "mar, 14 feb", "mar, 28 feb", "1", "3", "1" When I click on Search&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe results are showed&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI can to do the book&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI choose the options: hotel and room&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI can see the fill in your information page&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI fill my booking details&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI verify the booking details&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mselect last step&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe book is successfully&amp#27;[0m
+05:39:43.273 INFO  AndroidAppDriver.stopDriver :: AndroidDriver stopped
+]]></system-out>
   </testcase>
 </testsuite>

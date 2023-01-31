@@ -7,8 +7,8 @@
         <methods>
           <include name="tearDownAppium"/>
           <include name="setUpClass"/>
-          <include name="runScenario"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
           <include name="setUpAppium"/>
         </methods>
       </class> <!-- AndroidRunnerTest -->

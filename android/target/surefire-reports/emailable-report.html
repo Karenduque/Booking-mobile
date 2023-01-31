@@ -9,43 +9,135 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Product Test Suite</th></tr>
-<tr><td><a href="#t0">Product Acceptance Tests Android</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">375</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Product Acceptance Tests Android</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">26,541</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Product Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Product Acceptance Tests Android &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">AndroidRunnerTest</td><td><a href="#m0">setUpAppium</a></td><td rowspan="1">1674934331889</td><td rowspan="1">1</td></tr><tr><th colspan="4">Product Acceptance Tests Android &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">AndroidRunnerTest</td><td><a href="#m1">tearDownAppium</a></td><td rowspan="1">1674934331905</td><td rowspan="1">0</td></tr><tr><th colspan="4">Product Acceptance Tests Android &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">AndroidRunnerTest</td><td><a href="#m2">runScenario</a></td><td rowspan="2">1674934331901</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Product Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Product Acceptance Tests Android &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">AndroidRunnerTest</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1675161558942</td><td rowspan="2">13890</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr></tbody>
 </table>
-<h2>Product Acceptance Tests Android</h2><h3 id="m0">AndroidRunnerTest#setUpAppium</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;-Dserver=0&quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at AndroidRunnerTest.setUpAppium(AndroidRunnerTest.java:26)
+<h2>Product Acceptance Tests Android</h2><h3 id="m0">AndroidRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;01. Book a hotel in  &quot;Cuzco&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;2&quot; , &quot;1&quot;&quot;</td><td>&quot;Search&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.testng.UndefinedStepException: The step &apos;I am an user searching with the characteristics &quot;Cuzco&quot;, &quot;mar, 14 feb&quot;, &quot;mar, 28 feb&quot;, &quot;1&quot;, &quot;2&quot;, &quot;1&quot; When I click on Search&apos; and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am an user searching with the characteristics {string}, {string}, {string}, {string}, {string}, {string} When I click on Search&quot;)
+public void i_am_an_user_searching_with_the_characteristics_when_i_click_on_search(String string, String string2, String string3, String string4, String string5, String string6) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the results are showed&quot;)
+public void the_results_are_showed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I can to do the book&quot;)
+public void i_can_to_do_the_book() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I choose the options: hotel and room&quot;)
+public void i_choose_the_options_hotel_and_room() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I can see the fill in your information page&quot;)
+public void i_can_see_the_fill_in_your_information_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I fill my booking details&quot;)
+public void i_fill_my_booking_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the booking details&quot;)
+public void i_verify_the_booking_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;select last step&quot;)
+public void select_last_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the book is successfully&quot;)
+public void the_book_is_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">AndroidRunnerTest#tearDownAppium</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">AndroidRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;01. Open the Stays &quot;Cuzco&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;2&quot; , &quot;1&quot;&quot;</td><td>&quot;Search&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;-Dserver=0&quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at AndroidRunnerTest.setUpAppium(AndroidRunnerTest.java:26)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">AndroidRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;01. Book a hotel in  &quot;Cali&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;3&quot; , &quot;1&quot;&quot;</td><td>&quot;Search&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.testng.UndefinedStepException: The step &apos;I am an user searching with the characteristics &quot;Cali&quot;, &quot;mar, 14 feb&quot;, &quot;mar, 28 feb&quot;, &quot;1&quot;, &quot;3&quot;, &quot;1&quot; When I click on Search&apos; and 8 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am an user searching with the characteristics {string}, {string}, {string}, {string}, {string}, {string} When I click on Search&quot;)
+public void i_am_an_user_searching_with_the_characteristics_when_i_click_on_search(String string, String string2, String string3, String string4, String string5, String string6) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the results are showed&quot;)
+public void the_results_are_showed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I can to do the book&quot;)
+public void i_can_to_do_the_book() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I choose the options: hotel and room&quot;)
+public void i_choose_the_options_hotel_and_room() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I can see the fill in your information page&quot;)
+public void i_can_see_the_fill_in_your_information_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I fill my booking details&quot;)
+public void i_fill_my_booking_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the booking details&quot;)
+public void i_verify_the_booking_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;select last step&quot;)
+public void select_last_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the book is successfully&quot;)
+public void the_book_is_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">AndroidRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;01. Open the Stays &quot;Cali&quot; from the date &quot;mar, 14 feb&quot; until  &quot;mar, 28 feb&quot; with rooms  and guests  &quot;1&quot; , &quot;3&quot; , &quot;1&quot;&quot;</td><td>&quot;Search&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;-Dserver=0&quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at AndroidRunnerTest.setUpAppium(AndroidRunnerTest.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
